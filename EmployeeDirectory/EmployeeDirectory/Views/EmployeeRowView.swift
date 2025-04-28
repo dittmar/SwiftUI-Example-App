@@ -27,15 +27,16 @@ struct EmployeeRowView: View {
                     Text("Email: \(email)")
                 }
             }
+
             Spacer()
+
             if let photoURL = employee.photoURL {
                 KFImage(URL(string: photoURL)!)
                     .resizable()
+                    .scaledToFit()
                     .frame(width: 150, height: 150)
-                    .aspectRatio(contentMode: .fill)
             }
         }
-        .padding()
     }
 }
 
