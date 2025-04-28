@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Kingfisher
 import SwiftUI
 
 /// Lists all relevant information for an individual employee, including
@@ -19,19 +20,20 @@ struct EmployeeRowView: View {
                 Text(employee.name)
                 Text(employee.title)
                 Text(employee.team.description)
-                if let phoneNumber = employee.phoneNumber {
-                    Text("Phone: \(phoneNumber)")
+                if let phone = employee.phone {
+                    Text("Phone: \(phone)")
                 }
                 if let email = employee.email {
                     Text("Email: \(email)")
                 }
             }
             Spacer()
-            // TODO: (dittmar) this needs to be replaced with a picture
-            Image(systemName: "person.circle")
-                .resizable()
-                .foregroundColor(.blue)
-                .frame(width: 60, height: 60)
+            if let photoURL = employee.photoURL {
+                KFImage(URL(string: photoURL)!)
+                    .resizable()
+                    .frame(width: 150, height: 150)
+                    .aspectRatio(contentMode: .fill)
+            }
         }
         .padding()
     }
@@ -39,11 +41,12 @@ struct EmployeeRowView: View {
 
 #Preview {
     EmployeeRowView(employee: Employee(
-        id: UUID(),
+        id: UUID().uuidString,
+        email: "dittmar@example.com",
         name: "Kevin Dittmar",
-        title: "Software Engineer",
+        phone: "(856) 555-0100",
+        photoURL: nil,
         team: .engineering,
-        phoneNumber: "(856) 555-0100",
-        email: "dittmar@example.com"
+        title: "Software Engineer"
     ))
 }

@@ -10,12 +10,34 @@ import SwiftUI
 
 /// Lists all employees in returned from the server
 struct EmployeeListView: View {
-    @State private(set) var employees: [Employee]
+    @State private(set) var employees: [Employee] = []
 
     var body: some View {
         NavigationStack {
             List(employees) { employee in
                 EmployeeRowView(employee: employee)
+            }
+            .clipped()  // We don't want the employees scrolling through the status bar area
+            .task {
+                guard employees.isEmpty else { return }
+
+                // When this view first appears, fetch employees from the server
+                // TODO: (dittmar) make this read from persistence first and fall
+                // back to hitting the server
+                do {
+                    employees = try await GetEmployeesEndpoint().invoke()
+                } catch {
+                    let message = error.localizedDescription
+                    // TODO: (dittmar) log error
+                }
+            }
+            .refreshable {
+                do {
+                    employees = try await GetEmployeesEndpoint().invoke()
+                } catch {
+                    let message = error.localizedDescription
+                    // TODO: (dittmar) log error
+                }
             }
         }
     }
@@ -25,44 +47,40 @@ struct EmployeeListView: View {
     EmployeeListView(
         employees: [
             Employee(
-                id: UUID(),
+                id: UUID().uuidString,
+                email: "dittmar@example.com",
                 name: "Kevin Dittmar",
-                title: "Software Engineer",
+                phone: "(856) 555-0100",
+                photoURL: nil,
                 team: .engineering,
-                phoneNumber: "(856) 555-0100",
-                email: "dittmar@example.com"
+                title: "Software Engineer",
             ),
             Employee(
-                id: UUID(),
+                id: UUID().uuidString,
+                email: nil,
                 name: "John Smith",
-                title: "UI Designer",
+                phone: nil,
+                photoURL: nil,
                 team: .design,
-                phoneNumber: nil,
-                email: nil
+                title: "UI Designer"
             ),
             Employee(
-                id: UUID(),
-                name: "Jane Doe",
-                title: "Sales Associate",
-                team: .finance,
-                phoneNumber: nil,
-                email: nil
-            ),
-            Employee(
-                id: UUID(),
+                id: UUID().uuidString,
+                email: nil,
                 name: "Job Dunn",
-                title: "Product Manager",
+                phone: nil,
+                photoURL: nil,
                 team: .product,
-                phoneNumber: nil,
-                email: nil
+                title: "Product Manager"
             ),
             Employee(
-                id: UUID(),
+                id: UUID().uuidString,
+                email: "areallylongemailthattakesupalotofspace@example.com",
                 name: "A Really Long Name That Takes Up a Lot of Space",
+                phone: "(856) 555-0101 x123",
+                photoURL: nil,
+                team: .hr,
                 title: "A really long title that takes up a lot of space",
-                team: .product,
-                phoneNumber: "(856) 555-0101 x123",
-                email: "areallylongemailthattakesupalotofspace@example.com"
             )
         ]
     )

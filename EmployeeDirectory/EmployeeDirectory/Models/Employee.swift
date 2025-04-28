@@ -7,11 +7,13 @@
 
 import Foundation
 
-struct Employee: Identifiable, Codable {
-    let id: UUID
-    let name: String
-    let title: String
-    let team: Team
-    let phoneNumber: String?
+/// A basic employee that can be decoded from a JSON payload from the server
+struct Employee: Identifiable, Decodable {
+    let id: String
     let email: String?
+    let name: String
+    let phone: String?
+    let photoURL: String?
+    let team: Team
+    let title: String
 }
