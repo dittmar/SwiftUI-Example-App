@@ -21,20 +21,32 @@ struct EmployeeRowView: View {
                 Text(employee.title)
                 Text(employee.team.description)
                 if let phone = employee.phone {
-                    Text("Phone: \(phone)")
+                    Button("Phone: \(phone)") {
+                        UIApplication.shared.open(URL(string: "tel://\(phone)")!)
+                    }
+                    .buttonStyle(.borderless)
                 }
                 if let email = employee.email {
-                    Text("Email: \(email)")
+                    Button("Email: \(email)") {
+                        UIApplication.shared.open(URL(string: "mailto:\(email)")!)
+                    }
+                    .buttonStyle(.borderless)
+                    .lineLimit(1)   // Limit to 1 line because wrapping makes the button wrap oddly
                 }
             }
 
             Spacer()
 
+            let size: CGFloat = 100
             if let photoURL = employee.photoURL {
                 KFImage(URL(string: photoURL)!)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 150, height: 150)
+                    .frame(width: size, height: size)
+            } else {
+                Image(systemName: "person.circle.fill")
+                    .font(.system(size: size))
+                    .foregroundStyle(.gray)
             }
         }
     }
@@ -43,11 +55,11 @@ struct EmployeeRowView: View {
 #Preview {
     EmployeeRowView(employee: Employee(
         id: UUID().uuidString,
-        email: "dittmar@example.com",
-        name: "Kevin Dittmar",
+        email: "jonathan.william.appleseed@example.com",
+        name: "Doctor Jonathan William Appleseed, Jr.",
         phone: "(856) 555-0100",
         photoURL: nil,
         team: .engineering,
-        title: "Software Engineer"
+        title: "Junior Senior Staff Software Engineer"
     ))
 }
