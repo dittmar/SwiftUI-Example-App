@@ -15,8 +15,15 @@ struct EmployeeListView: View {
     var body: some View {
         NavigationStack {
             List(employees) { employee in
-                EmployeeRowView(employee: employee)
+                NavigationLink(value: employee) {
+                    EmployeeRowView(employee: employee)
+                }
             }
+            .navigationDestination(for: Employee.self) { employee in
+                // TODO: (dittmar) put an actual detail screen here
+                Text("Employee Details for \(employee.name)")
+            }
+            .navigationTitle("Employee directory")
             .clipped()  // We don't want the employees scrolling through the status bar area
             .task {
                 guard employees.isEmpty else { return }

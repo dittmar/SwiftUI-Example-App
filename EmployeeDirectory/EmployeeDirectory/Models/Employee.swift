@@ -8,7 +8,7 @@
 import Foundation
 
 /// A basic employee that can be decoded from a JSON payload from the server
-struct Employee: Identifiable, Decodable {
+struct Employee: Identifiable, Decodable, Hashable {
     let id: String
     let email: String?
     let name: String
