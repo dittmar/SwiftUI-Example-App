@@ -59,6 +59,8 @@ struct EmployeeRowView: View {
         name: "Doctor Jonathan William Appleseed, Jr.",
         phone: "(856) 555-0100",
         photoURL: nil,
+        largePhotoURL: nil,
+        biography: "Sample bio",
         team: .engineering,
         title: "Junior Senior Staff Software Engineer"
     ))

@@ -1,6 +1,21 @@
-Text("\(employee.name)")
-                    .font(.title)
-                GeometryReader { geometry in
+//
+//  EmployeeDetailView.swift
+//  EmployeeDirectory
+//
+//  Created by Kevin Dittmar on 5/6/25.
+//
+import Kingfisher
+import SwiftUI
+
+struct EmployeeDetailView: View {
+    @State private(set) var employee: Employee
+
+    var body: some View {
+        GeometryReader { geometry in
+            ScrollView {
+                VStack {
+                    Text("\(employee.name)")
+                        .font(.title)
                     if let imageURL = employee.largePhotoURL {
                         KFImage(URL(string: imageURL))
                             .resizable()
@@ -10,5 +25,29 @@ Text("\(employee.name)")
                                 maxHeight: geometry.size.height
                             )
                     }
+                    if let biography = employee.biography {
+                        Text("Bio:\n\(biography)")
+                    }
+                    Spacer()
                 }
-                Spacer()
+                .padding()
+            }
+        }
+    }
+}
+
+#Preview {
+    EmployeeDetailView(
+        employee: Employee(
+            id: UUID().uuidString,
+            email: "dittmar@example.com",
+            name: "Kevin Dittmar",
+            phone: "(856) 555-0100",
+            photoURL: nil,
+            largePhotoURL: nil,
+            biography: "Kevin is an iOS engineer who likes to ballroom dance, play video games, and play board games.",
+            team: .engineering,
+            title: "Software Engineer"
+        )
+    )
+}

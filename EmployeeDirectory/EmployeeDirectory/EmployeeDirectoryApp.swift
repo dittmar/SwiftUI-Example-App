@@ -11,7 +11,7 @@ import SwiftUI
 struct EmployeeDirectoryApp: App {
     var body: some Scene {
         WindowGroup {
-            EmployeeListView()
+            EmployeeListView(employeeListViewModel: EmployeeListViewModel(employees: []))
         }
     }
 }

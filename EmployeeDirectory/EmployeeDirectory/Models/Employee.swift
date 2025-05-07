@@ -14,6 +14,8 @@ struct Employee: Identifiable, Decodable, Hashable {
     let name: String
     let phone: String?
     let photoURL: String?
+    let largePhotoURL: String?
+    let biography: String?
     let team: Team
     let title: String
 }
