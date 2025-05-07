@@ -7,7 +7,8 @@
     "email": "alex.smith@example.com",
     "phone": "212-555-0100",
     "photoURL": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Alex is a passionate software engineer on the engineering team. Alex enjoys coding in Python, hiking, and exploring new technologies. They are a big fan of open-source software and contributing to the community."
   },
   {
     "id": "bcdefa0-1234-5678-90ab-cdefa0123456",
@@ -15,7 +16,8 @@
     "title": "Data Scientist",
     "team": "engineering",
     "photoURL": "https://images.pexels.com/photos/906052/pexels-photo-906052.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/906052/pexels-photo-906052.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/906052/pexels-photo-906052.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Drew is a dedicated data scientist who loves to solve complex problems. When not wrangling data, Drew enjoys playing chess, reading science fiction, and brewing their own craft beer. They are passionate about using data to make informed decisions."
   },
   {
     "id": "cdefa012-3456-789a-bcde-fa0123456789",
@@ -25,7 +27,8 @@
     "email": "jamie.brown@example.com",
     "phone": "516-555-0104",
     "photoURL": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Jamie is a dynamic product manager passionate about creating user-centered experiences. Jamie loves spending time outdoors, hiking and kayaking. They also enjoy cooking, trying new recipes, and spending time with friends and family."
   },
   {
     "id": "defa0123-4567-89ab-cdef-a0123456789b",
@@ -34,7 +37,8 @@
     "team": "design",
     "phone": "917-555-0101",
     "photoURL": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?h=600&w=600",
+    "biography": "Casey is a creative UX designer with a keen eye for detail and a passion for creating intuitive interfaces. In their free time, Casey enjoys painting, visiting art museums, and exploring different cultures through travel. They are always seeking inspiration from the world around them."
   },
   {
     "id": "efa01234-5678-9abc-defa-0123456789bc",
@@ -44,7 +48,8 @@
     "email": "riley.miller@example.com",
     "phone": "646-555-0102",
     "photoURL": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Riley is a skilled frontend developer with a passion for building beautiful and responsive websites. When not coding, Riley can be found playing guitar, attending concerts, and experimenting with new web technologies. They are committed to creating accessible and user-friendly experiences."
   },
   {
     "id": "fa012345-6789-abcd-efab-0123456789cd",
@@ -52,7 +57,8 @@
     "title": "QA Engineer",
     "team": "engineering",
     "photoURL": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=600",
+    "biography": "Jordan is a detail-oriented QA Engineer dedicated to ensuring high-quality software releases. Outside of work, Jordan is an avid reader, enjoys hiking in the mountains, and participates in local coding meetups. They are dedicated to advocating for thorough testing and continuous improvement."
   },
   {
     "id": "01234567-89ab-cdef-abcd-0123456789ef",
@@ -62,7 +68,8 @@
     "email": "taylor.taylor@example.com",
     "phone": "212-555-0103",
     "photoURL": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Taylor is a seasoned technical lead known for their expertise in guiding teams and delivering innovative solutions. Taylor's hobbies include woodworking, playing board games, and mentoring junior developers. They believe in fostering a collaborative and supportive team environment."
   },
   {
     "id": "12345678-9abc-def0-bcde-1234567890fa",
@@ -71,7 +78,8 @@
     "team": "product",
     "phone": "718-555-0103",
     "photoURL": "https://images.pexels.com/photos/1181660/pexels-photo-1181660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1181660/pexels-photo-1181660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1181660/pexels-photo-1181660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Blake is a results-driven marketing manager passionate about crafting compelling campaigns. Outside of work, Blake enjoys photography, exploring new restaurants, and attending industry conferences. They are dedicated to building strong brand awareness and engaging with customers."
   },
   {
     "id": "23456789-abcd-ef01-cdef-234567890abc",
@@ -81,7 +89,8 @@
     "email": "skyler.clark@example.com",
     "phone": "516-555-0104",
     "photoURL": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Skyler is a highly motivated sales representative with a talent for building strong client relationships. When not closing deals, Skyler enjoys playing soccer, volunteering at local charities, and mentoring aspiring sales professionals. They are dedicated to providing exceptional customer service."
   },
   {
     "id": "3456789a-bcde-f012-def0-34567890abcd",
@@ -90,7 +99,8 @@
     "team": "engineering",
     "phone": "516-555-0104",
     "photoURL": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Dakota is a detail-oriented data analyst passionate about uncovering insights from complex datasets. Outside of work, Dakota enjoys hiking, photography, and attending local meetups. They are passionate about using data to make informed decisions and drive business growth."
   },
   {
     "id": "456789ab-cdef-0123-ef01-4567890abcde",
@@ -100,7 +110,8 @@
     "email": "avery.harris@example.com",
     "phone": "646-555-0102",
     "photoURL": "https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Avery is a skilled software engineer passionate about building innovative and user-friendly applications. In their spare time, Avery enjoys playing video games, attending hackathons, and contributing to open-source projects. They are dedicated to creating software that makes a positive impact on people's lives."
   },
   {
     "id": "56789abc-def0-1234-f012-567890abcdef",
@@ -108,7 +119,8 @@
     "title": "Project Manager",
     "team": "product",
     "photoURL": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Rowan is an organized and enthusiastic project manager with a track record of successfully delivering projects on time and within budget. When not managing projects, Rowan enjoys hiking, camping, and spending time with their family. They excel at keeping the team on track and removing roadblocks."
   },
   {
     "id": "6789abcd-ef01-2345-0123-67890abcdefa",
@@ -118,7 +130,8 @@
     "email": "quinn.garcia@example.com",
     "phone": "201-555-0105",
     "photoURL": "https://images.pexels.com/photos/1845534/pexels-photo-1845534.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1845534/pexels-photo-1845534.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1845534/pexels-photo-1845534.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Quinn is a detail-oriented and creative UI designer. Quinn loves spending time reading and drawing. They spend most of their free time designing in their personal studio."
   },
   {
     "id": "789abcde-f012-3456-1234-7890abcdef0b",
@@ -127,7 +140,8 @@
     "team": "engineering",
     "phone": "646-555-0102",
     "photoURL": "https://images.pexels.com/photos/1181666/pexels-photo-1181666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1181666/pexels-photo-1181666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1181666/pexels-photo-1181666.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Parker is a detail-oriented and enthusiastic DevOps engineer. They love creating new automation scripts, and also spend their free time playing guitar in a band."
   },
   {
     "id": "89abcdef-0123-4567-2345-89abcdef012c",
@@ -137,7 +151,8 @@
     "email": "devon.williams@example.com",
     "phone": "646-555-0102",
     "photoURL": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Devon Williams is a dedicated Security Engineer on the Security team. Devon loves to spend their free time playing chess, or reading about new security technologies. In their downtime, they work at a local non-profit to help people learn how to stay safe online."
   },
   {
     "id": "9abcdef0-1234-5678-3456-90abcdef0123d",
@@ -146,7 +161,8 @@
     "team": "design",
     "phone": "347-555-0106",
     "photoURL": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Reese is a skilled and insightful technical writer. They spend their free time writing fiction, creating art and contributing to open source documentation projects."
   },
   {
     "id": "abcdef01-2345-6789-4567-abcdef01234e",
@@ -156,7 +172,8 @@
     "email": "charlie.adams@example.com",
     "phone": "646-555-0102",
     "photoURL": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Charlie is a reliable and highly skilled database administrator. When they aren't solving database issues, they spend their free time running marathons and training their puppy."
   },
   {
     "id": "bcdef012-3456-789a-5678-bcdef012345f",
@@ -164,7 +181,8 @@
     "title": "Network Engineer",
     "team": "engineering",
     "photoURL": "https://images.pexels.com/photos/936038/pexels-photo-936038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/936038/pexels-photo-936038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/936038/pexels-photo-936038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Finley is a dependable and knowledgable network engineer. In their free time they practice lockpicking and volunteer at the local maker faire."
   },
   {
     "id": "cdef0123-4567-89ab-6789-cdef01234560",
@@ -174,7 +192,8 @@
     "email": "morgan.carter@example.com",
     "phone": "631-555-0107",
     "photoURL": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Morgan is a warm and caring HR specialist. During their time off they enjoy yoga, meditation, and spending time in nature."
   },
   {
     "id": "def01234-5678-9abc-789a-def012345671",
@@ -182,6 +201,7 @@
     "title": "Accountant",
     "team": "finance",
     "photoURL": "https://images.pexels.com/photos/769735/pexels-photo-769735.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
-    "largePhotoURL": "https://images.pexels.com/photos/769735/pexels-photo-769735.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600"
+    "largePhotoURL": "https://images.pexels.com/photos/769735/pexels-photo-769735.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=600",
+    "biography": "Jessie is a detail-oriented and organized accountant. In their off time they enjoy hiking and supporting the local sports teams."
   }
 ]
