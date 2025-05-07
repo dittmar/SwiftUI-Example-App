@@ -43,8 +43,8 @@ struct EmployeeDetailView: View {
             email: "dittmar@example.com",
             name: "Kevin Dittmar",
             phone: "(856) 555-0100",
-            photoURL: nil,
-            largePhotoURL: nil,
+            photoURL: "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=200",
+            largePhotoURL: "https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1200",
             biography: "Kevin is an iOS engineer who likes to ballroom dance, play video games, and play board games.",
             team: .engineering,
             title: "Software Engineer"
